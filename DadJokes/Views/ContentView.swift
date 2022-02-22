@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
         VStack {
             
@@ -32,7 +34,7 @@ struct ContentView: View {
             Button(action: {
                 
             },label: {
-                Text("Another Joke!")
+                Text("Another One!")
                 
                     
             

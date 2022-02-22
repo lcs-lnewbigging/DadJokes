@@ -14,6 +14,7 @@
 		FE32724627C544AB0089EAE2 /* DadJokesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32724527C544AB0089EAE2 /* DadJokesTests.swift */; };
 		FE32725027C544AB0089EAE2 /* DadJokesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32724F27C544AB0089EAE2 /* DadJokesUITests.swift */; };
 		FE32725227C544AB0089EAE2 /* DadJokesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32725127C544AB0089EAE2 /* DadJokesUITestsLaunchTests.swift */; };
+		FE32726127C54A490089EAE2 /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32726027C54A490089EAE2 /* DadJoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FE32724B27C544AB0089EAE2 /* DadJokesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadJokesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE32724F27C544AB0089EAE2 /* DadJokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITests.swift; sourceTree = "<group>"; };
 		FE32725127C544AB0089EAE2 /* DadJokesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE32726027C54A490089EAE2 /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				FE32723427C544A40089EAE2 /* DadJokesApp.swift */,
-				FE32723627C544A40089EAE2 /* ContentView.swift */,
+				FE32725E27C549EC0089EAE2 /* Model */,
+				FE32725F27C549F70089EAE2 /* Views */,
 				FE32723827C544AA0089EAE2 /* Assets.xcassets */,
 				FE32723A27C544AA0089EAE2 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				FE32725127C544AB0089EAE2 /* DadJokesUITestsLaunchTests.swift */,
 			);
 			path = DadJokesUITests;
+			sourceTree = "<group>";
+		};
+		FE32725E27C549EC0089EAE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE32726027C54A490089EAE2 /* DadJoke.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE32725F27C549F70089EAE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE32723627C544A40089EAE2 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				FE32723727C544A40089EAE2 /* ContentView.swift in Sources */,
 				FE32723527C544A40089EAE2 /* DadJokesApp.swift in Sources */,
+				FE32726127C54A490089EAE2 /* DadJoke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
