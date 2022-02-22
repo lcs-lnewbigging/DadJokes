@@ -9,11 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     
+    //MARK: Stored Properties
+    var currentJoke: DadJoke = DadJoke(id: "",
+                                       joke: "Knock...Knock",
+                                       status: 0)
+    
+    
+    //MARK: Computed Properties
+   
+    
+    
     
     var body: some View {
         VStack {
             
-            Text("How do you organize a space party? You planet.")
+            Text(currentJoke.joke)
                 .multilineTextAlignment(.leading)
                 .padding(30)
                 .overlay(
@@ -27,7 +37,7 @@ struct ContentView: View {
             },label: {
                 Image(systemName: "heart.circle")
                     .resizable()
-                    .foregroundColor(.gray)
+                    .foregroundColor(.red)
                     .frame(width: 40, height: 40)
                 })
             
@@ -40,10 +50,10 @@ struct ContentView: View {
             
             })
                 
-                .buttonStyle(. bordered)
+                .buttonStyle(. borderedProminent)
                 .font(.body)
                 .padding()
-//                .tint(.gray)
+                .tint(.red)
             
             
             
